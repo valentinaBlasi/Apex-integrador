@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(19, 191, 19);
+    color: white;
+
+    /* Posicionamiento*/
+    padding: 10px 20px;
+    top: 0px;
+   width:calc(100%);
+    z-index: 1;
+
+    /* Flexbox*/
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    height: 3cm;
+    width: 3cm;
+}
+
+nav ul {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1cm;
+}
